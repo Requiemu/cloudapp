@@ -24,5 +24,5 @@ def save(user_id, n, patch_number):
 
 
 if __name__ == "__main__":
-    coursera_user_id = raw_input('Coursera User ID: ')
+    coursera_user_id = 0 #raw_input('Coursera User ID: ')
     save(coursera_user_id, *generate_by_user(coursera_user_id))
